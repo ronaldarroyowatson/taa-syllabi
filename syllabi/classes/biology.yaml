@@ -1,0 +1,30 @@
+course_name: Biology
+term: Fall Semester 2026
+grades: "10"
+class_time: Period 5, Monday-Friday, 11:20 am-12:10 pm
+textbook: "ByDesign Biology: The Scientific Study of Life (Kendall Hunt, 2020; Dr. Timoth Standish et al.)."
+course_description: Placeholder description. Replace with class-specific summary.
+units:
+  - Introduction: Chapter 1 Foundations of Biology; Chapter 2 Biology Connections.
+  - Unit 1 Ecology and Interdependence: Chapter 3 Ecosystems; Chapter 4 Populations and Communities; Chapter 5 Conservation.
+  - Unit 2 Cell Structure and Processes: Chapter 6 Molecules of Life; Chapter 7 Cell Structure and Function; Chapter 8 Photosynthesis; Chapter 9 Cellular Respiration; Chapter 10 The Cell Cycle.
+  - Unit 3 Genetics: Chapter 11 Mendelian and Population Genetics; Chapter 12 Chromosomes and Inheritance; Chapter 13 Gene Expression and Regulation; Chapter 14 Technology and Bioethics.
+  - Unit 4 Taxonomy: Chapter 15 Classification; Chapter 16 Viruses, Prokaryotes, Protists, and Fungi; Chapter 17 Plants; Chapter 18 Invertebrates.
+  - Unit 5 Human Biology: Chapter 21 The Human Body and Integument; Chapter 22 The Nervous System; Chapter 23 The Skeletal and Muscular Systems; Chapter 24 The Circulatory and Respiratory Systems; Chapter 25 The Digestive, Lymphatic, and Immune Systems; Chapter 26 The Reproductive, Endocrine, and Urinary Systems.
+  - Conclusion: Chapter 27 The Beginning and the End.
+required_materials:
+  - School uniform (including closed-toed shoes; no exceptions).
+  - Graphing calculator (TI-83 series or similar; TI-89 series not allowed).
+  - iPad (fully charged and connected to Wi-Fi).
+  - Coloring pencils.
+optional_materials:
+  - Optional note-taking device such as an iPad, tablet, or laptop.
+exam_schedule:
+  - Tests follow the textbook pacing guide.
+  - A review day is scheduled before each test.
+  - There are no other officially set testing days.
+reading_level: high-school
+instructor_name: Ronald Arroyo-Watson
+instructor_email: rarroyo-watson@tulsaacademy.org
+office_location: Science Lab, Tulsa Adventist Academy.
+office_hours: "Technology Period (technology support): Mondays and Wednesdays, 1:30 pm-2:20 pm; Planning Period: Period 4, 10:30 am-11:20 am."

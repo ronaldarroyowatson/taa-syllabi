@@ -1,0 +1,3 @@
+- Tests follow the textbook pacing guide.
+- A review day is scheduled before each test.
+- There are no other officially set testing days.

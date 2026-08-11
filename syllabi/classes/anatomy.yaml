@@ -1,0 +1,23 @@
+course_name: Anatomy
+term: Fall Semester 2026
+grades: "12"
+class_time: Period 6, Monday-Friday, 12:40 pm-1:30 pm
+textbook: TBD
+course_description: Placeholder description. Replace with class-specific summary.
+units:
+  - TBD
+required_materials:
+  - School uniform (including closed-toed shoes; no exceptions).
+  - Graphing calculator (TI-83 series or similar; TI-89 series not allowed).
+  - iPad (fully charged and connected to Wi-Fi).
+optional_materials:
+  - Optional note-taking device such as an iPad, tablet, or laptop.
+exam_schedule:
+  - Tests follow the textbook pacing guide.
+  - A review day is scheduled before each test.
+  - There are no other officially set testing days.
+reading_level: high-school
+instructor_name: Ronald Arroyo-Watson
+instructor_email: rarroyo-watson@tulsaacademy.org
+office_location: Science Lab, Tulsa Adventist Academy.
+office_hours: "Technology Period (technology support): Mondays and Wednesdays, 1:30 pm-2:20 pm; Planning Period: Period 4, 10:30 am-11:20 am."

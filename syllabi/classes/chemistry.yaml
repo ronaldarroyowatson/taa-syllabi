@@ -1,0 +1,44 @@
+course_name: Chemistry
+term: Fall Semester 2026
+grades: "11"
+class_time: Period 1, Monday-Friday, 8:00 am-8:50 am
+textbook: "Chemistry: Matter and Change by Thandi Buthelezi and colleagues."
+course_description: "This course covers core chemistry concepts using the Chemistry: Matter and Change textbook."
+units:
+  - Module 1 The Central Science.
+  - >-
+    Unit 1 Structure and Properties of Matter: Module 2 Matter-Properties and
+    Changes; Module 3 The Structure of the Atom; Module 4 Electrons in Atoms;
+    Module 5 The Periodic Table and Periodic Law.
+  - >-
+    Unit 2 Chemical Bonding and Reactions: Module 6 Ionic Compounds and Metals;
+    Module 7 Covalent Bonding; Module 8 Chemical Reactions; Module 9 The Mole;
+    Module 10 Stoichiometry.
+  - >-
+    Unit 3 Matter, Energy, and Equilibrium: Module 11 States of Matter; Module
+    12 Gases; Module 13 Mixtures and Solutions; Module 14 Energy and Chemical
+    Change; Module 15 Reaction Rates; Module 16 Chemical Equilibrium; Module 17
+    Acids and Bases; Module Earth and Space Science: Ocean Acidification.
+  - >-
+    Unit 4 Oxidation and Reduction Reactions: Module 18 Redox Reactions; Module
+    19 Electrochemistry.
+  - >-
+    Unit 5 Organic and Nuclear Chemistry: Module 20 Hydrocarbons; Module 21
+    Substituted Hydrocarbons and Their Reactions; Module 22 The Chemistry of
+    Life; Module 23 Nuclear Chemistry; Module Earth and Space Science: Climate
+    Change.
+required_materials:
+  - School uniform (including closed-toed shoes; no exceptions).
+  - Graphing calculator (TI-83 series or similar; TI-89 series not allowed).
+  - iPad (fully charged and connected to Wi-Fi).
+optional_materials:
+  - Optional note-taking device such as an iPad, tablet, or laptop.
+exam_schedule:
+  - Tests follow the textbook pacing guide.
+  - A review day is scheduled before each test.
+  - There are no other officially set testing days.
+reading_level: high-school
+instructor_name: Ronald Arroyo-Watson
+instructor_email: rarroyo-watson@tulsaacademy.org
+office_location: Main campus office
+office_hours: "Mon-Thu: 8 am-3 pm; Fri: 8 am-2 pm; technology help available during the last class period of the day."

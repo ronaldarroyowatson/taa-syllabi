@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/syllabus-class.schema.json",
+  "title": "Syllabus Class Configuration",
+  "type": "object",
+  "required": [
+    "course_name",
+    "term",
+    "grades",
+    "class_time",
+    "textbook",
+    "course_description",
+    "units",
+    "required_materials",
+    "optional_materials",
+    "reading_level"
+  ],
+  "properties": {
+    "course_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "term": {
+      "type": "string",
+      "minLength": 1
+    },
+    "grades": {
+      "type": "string",
+      "minLength": 1
+    },
+    "class_time": {
+      "type": "string",
+      "minLength": 1
+    },
+    "textbook": {
+      "type": "string",
+      "minLength": 1
+    },
+    "course_description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "units": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required_materials": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "optional_materials": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "exam_schedule": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "reading_level": {
+      "type": "string",
+      "enum": [
+        "high-school",
+        "middle-school"
+      ]
+    },
+    "instructor_name": {
+      "type": "string"
+    },
+    "instructor_email": {
+      "type": "string"
+    },
+    "office_location": {
+      "type": "string"
+    },
+    "office_hours": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

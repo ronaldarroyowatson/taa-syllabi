@@ -1,0 +1,26 @@
+course_name: Earth and Space Science
+term: Fall Semester 2026
+grades: "9"
+class_time: Period 8, Mondays and Wednesdays, 2:20 pm-3:10 pm; Period 7, Tuesdays and Thursdays, 1:30 pm-2:20 pm
+textbook: Physical Science with Earth Science by Ralph Feathe and colleagues.
+course_description: This course covers earth and space science concepts using the second half of the adopted textbook.
+units:
+  - Unit 7 Earth: Module 25 Earth's Internal Processes; Module 26 Earth Materials; Module 27 Earth's Changing Surface; Module 28 Weather and Climate.
+  - Unit 8 Space: Module 29 The Earth-Moon-Sun System; Module 30 The Solar System; Module 31 Stars and Galaxies.
+  - Unit 5 Reactions: Module 18 Chemical Bonds; Module 19 Chemical Reactions; Module 20 Radioactivity and Nuclear Reactions.
+  - Unit 6 Applications of Chemistry: Module 21 Solutions; Module 22 Acids, Bases, and Salts; Module 23 Organic Compounds; Module 24 New Materials Through Chemistry.
+required_materials:
+  - School uniform (including closed-toed shoes; no exceptions).
+  - Graphing calculator (TI-83 series or similar; TI-89 series not allowed).
+  - iPad (fully charged and connected to Wi-Fi).
+optional_materials:
+  - Optional note-taking device such as an iPad, tablet, or laptop.
+exam_schedule:
+  - Tests follow the textbook pacing guide.
+  - A review day is scheduled before each test.
+  - There are no other officially set testing days.
+reading_level: high-school
+instructor_name: Ronald Arroyo-Watson
+instructor_email: rarroyo-watson@tulsaacademy.org
+office_location: Main campus office
+office_hours: "Mon-Thu: 8 am-3 pm; Fri: 8 am-2 pm; technology help available during the last class period of the day."

@@ -1,0 +1,41 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "markdownlint.configFile": ".markdownlint.json",
+  "markdownlint.ignore": [
+    "syllabi/output/**"
+  ],
+  "yaml.validate": true,
+  "yaml.customTags": [
+    "!include scalar"
+  ],
+  "yaml.schemas": {
+    "./schemas/syllabus-class.schema.json": "syllabi/classes/*.yaml"
+  },
+  "cSpell.words": [
+    "Buthelezi",
+    "Feathe",
+    "Faughn",
+    "Farlane",
+    "MacFarlane",
+    "Pandoc",
+    "Raney",
+    "Serway",
+    "Thandi",
+    "Timoth",
+    "pandoc",
+    "winget"
+     "davidanson",
+     "esbenp"
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  }
+}

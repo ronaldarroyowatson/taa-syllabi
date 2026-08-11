@@ -1,0 +1,29 @@
+course_name: Physics Science
+term: Fall Semester 2026
+grades: "12"
+class_time: Monday-Friday, 11:10 am-12:00 pm
+textbook: Physics by Raymond A. Serway, Ph.D., and Jerry S. Faughn, Ph.D.
+course_description: This course walks students through core physics concepts using a chapter-based progression from the adopted textbook.
+units:
+  - Module 1 Physics Toolkit: Module 1 A Physics Toolkit.
+  - Unit 1 Mechanics in One Dimension: Module 2 Representing Motion; Module 3 Accelerated Motion; Module 4 Forces in One Dimension.
+  - Unit 2 Mechanics in Two Dimensions: Module 5 Displacement and Force in Two Dimensions; Module 6 Motion in Two Dimensions; Module 7 Gravitation; Module 8 Rotational Motion; Module Earth and Space Science - Earth Tectonic Processes.
+  - Unit 3 Momentum and Energy: Module 9 Momentum and Its Conservation; Module 10 Energy and Its Conservation; Module 11 Thermal Energy; Module 12 States of Matter; Module Earth and Space Science - Earth's Resources; Module Earth and Space Science - Earth Surface Processes.
+  - Unit 4 Waves and Light: Module 13 Vibrations and Waves; Module 14 Sound; Module 15 Fundamentals of Light; Module 16 Reflection and Refraction; Module 17 Interference and Diffraction; Module Earth and Space Science - Seismic Waves.
+  - Unit 5 Electricity and Magnetism: Module 18 Electrostatics; Module 19 Electric Current and Circuits; Module 20 Magnetism; Module 21 Electromagnetism.
+  - Unit 6 Subatomic Physics: Module 22 Quantum Theory and the Atom; Module 23 Solid-State Electronics; Module 24 Nuclear and Particle Physics; Module Earth and Space Science - Stars; Module Earth and Space Science - Cosmology.
+required_materials:
+  - School uniform (including closed-toed shoes; no exceptions).
+  - Graphing calculator (TI-83 series or similar; TI-89 series not allowed).
+  - iPad (fully charged and connected to Wi-Fi).
+optional_materials:
+  - Optional note-taking device such as an iPad, tablet, or laptop.
+exam_schedule:
+  - Tests follow the textbook pacing guide.
+  - A review day is scheduled before each test.
+  - There are no other officially set testing days.
+reading_level: high-school
+instructor_name: Ronald Arroyo-Watson
+instructor_email: rarroyo-watson@tulsaacademy.org
+office_location: Main campus office
+office_hours: Mon-Thu 8:00 am-3:00 pm; Fri 8:00 am-2:00 pm; technology help during last class period.

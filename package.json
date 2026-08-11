@@ -1,0 +1,19 @@
+{
+  "name": "taa-syllabi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Template-driven syllabus generation system",
+  "scripts": {
+    "generate": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/render-syllabi.ps1 -All",
+    "generate:physics": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/render-syllabi.ps1 -Class physics",
+    "lint": "npm run lint:md && npm run lint:yaml && npm run lint:json",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "lint:yaml": "prettier --check \"**/*.{yml,yaml}\"",
+    "lint:json": "prettier --check \"**/*.{json,code-workspace}\"",
+    "format": "prettier --write \"**/*.{md,yml,yaml,json,code-workspace}\""
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.14.0",
+    "prettier": "^3.3.3"
+  }
+}
