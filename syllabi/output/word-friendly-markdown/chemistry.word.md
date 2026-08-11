@@ -10,7 +10,7 @@ Fall Semester 2026
 - Textbook: Chemistry: Matter and Change by Thandi Buthelezi and colleagues.
 
 ## Course Description
-This course covers core chemistry concepts using the Chemistry: Matter and Change textbook.
+Chemistry provides students with a foundational understanding of matter, chemical reactions, atomic structure, bonding, stoichiometry, and thermodynamics. Students learn to interpret chemical equations, analyze laboratory data, and apply mathematical reasoning to chemical systems. Laboratory work reinforces safe practices, precision, and scientific inquiry. This course prepares students for advanced STEM coursework.
 
 ## Units
 - Module 1 The Central Science.
@@ -125,7 +125,7 @@ This course covers core chemistry concepts using the Chemistry: Matter and Chang
 
 ## Syllabus Change Notice
 - Class rules, procedures, and expectations may change at any time to support student learning, school policy, legal requirements, or safety needs.
-- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](chemistry.md).
-- A repository-wide summary of rule updates is tracked in [README change log](../../../README.md#shared-rules-baseline-and-change-log).
+- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/syllabi/output/github-markdown/chemistry.md).
+- A repository-wide summary of rule updates is tracked in [README change log](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/README.md#shared-rules-baseline-and-change-log).
 
 <!-- markdownlint-enable MD022 MD032 MD034 -->

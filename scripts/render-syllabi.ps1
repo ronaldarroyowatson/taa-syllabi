@@ -55,6 +55,74 @@ else {
     }
 }
 
+function Get-GitExecutablePath {
+    $gitCmd = Get-Command git -ErrorAction SilentlyContinue
+    if ($gitCmd) {
+        return $gitCmd.Source
+    }
+
+    $gitCandidates = @(
+        'C:\Program Files\Git\cmd\git.exe',
+        'C:\Program Files\Git\bin\git.exe',
+        'C:\Progra~1\Git\cmd\git.exe'
+    )
+    foreach ($candidate in $gitCandidates) {
+        if (Test-Path -LiteralPath $candidate) {
+            return $candidate
+        }
+    }
+
+    return $null
+}
+
+function Get-RepositoryWebBaseUrl {
+    param(
+        [string]$RepoRoot,
+        [string]$GitExe
+    )
+
+    if (-not $GitExe) {
+        return $null
+    }
+
+    $originUrl = & $GitExe -C $RepoRoot remote get-url origin 2>$null
+    if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($originUrl)) {
+        return $null
+    }
+
+    $origin = $originUrl.Trim()
+    if ($origin -match '^https://github\.com/(?<owner>[^/]+)/(?<repo>[^/.]+?)(?:\.git)?$') {
+        return "https://github.com/$($Matches.owner)/$($Matches.repo)"
+    }
+    if ($origin -match '^git@github\.com:(?<owner>[^/]+)/(?<repo>[^/.]+?)(?:\.git)?$') {
+        return "https://github.com/$($Matches.owner)/$($Matches.repo)"
+    }
+
+    return $null
+}
+
+function Get-RepositoryPublishBranch {
+    param(
+        [string]$RepoRoot,
+        [string]$GitExe
+    )
+
+    if (-not $GitExe) {
+        return 'main'
+    }
+
+    $currentBranch = & $GitExe -C $RepoRoot rev-parse --abbrev-ref HEAD 2>$null
+    if ($LASTEXITCODE -eq 0 -and -not [string]::IsNullOrWhiteSpace($currentBranch)) {
+        return $currentBranch.Trim()
+    }
+
+    return 'main'
+}
+
+$gitExe = Get-GitExecutablePath
+$repoWebBaseUrl = Get-RepositoryWebBaseUrl -RepoRoot $repoRoot -GitExe $gitExe
+$publishBranch = Get-RepositoryPublishBranch -RepoRoot $repoRoot -GitExe $gitExe
+
 function Parse-SimpleYaml {
     param([string]$Path)
 
@@ -247,15 +315,23 @@ function Render-Class {
         [string]$GithubOutDir,
         [string]$WordOutDir,
         [string]$FactsOutDir,
-        [string]$RepoRoot
+        [string]$RepoRoot,
+        [string]$RepoWebBaseUrl,
+        [string]$PublishBranch
     )
 
     $data = Parse-SimpleYaml -Path $ClassYamlPath
     $name = [System.IO.Path]::GetFileNameWithoutExtension($ClassYamlPath)
 
     # Template helper links for policy-change notices.
-    $data['syllabus_repo_link'] = "$name.md"
-    $data['rules_readme_link'] = '../../../README.md#shared-rules-baseline-and-change-log'
+    if (-not [string]::IsNullOrWhiteSpace($RepoWebBaseUrl)) {
+        $data['syllabus_repo_link'] = "$RepoWebBaseUrl/blob/$PublishBranch/syllabi/output/github-markdown/$name.md"
+        $data['rules_readme_link'] = "$RepoWebBaseUrl/blob/$PublishBranch/README.md#shared-rules-baseline-and-change-log"
+    }
+    else {
+        $data['syllabus_repo_link'] = "$name.md"
+        $data['rules_readme_link'] = '../../../README.md#shared-rules-baseline-and-change-log'
+    }
 
     $template = [System.IO.File]::ReadAllText($TemplatePath)
     if ($DebugRender) {
@@ -327,7 +403,7 @@ else {
 }
 
 $results = foreach ($file in $classFiles) {
-    Render-Class -ClassYamlPath $file.FullName -TemplatePath $templatePath -GithubOutDir $githubOutDir -WordOutDir $wordOutDir -FactsOutDir $factsOutDir -RepoRoot $repoRoot
+    Render-Class -ClassYamlPath $file.FullName -TemplatePath $templatePath -GithubOutDir $githubOutDir -WordOutDir $wordOutDir -FactsOutDir $factsOutDir -RepoRoot $repoRoot -RepoWebBaseUrl $repoWebBaseUrl -PublishBranch $publishBranch
 }
 
 $results | Format-Table -AutoSize

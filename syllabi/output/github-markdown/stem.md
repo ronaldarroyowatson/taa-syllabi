@@ -149,7 +149,7 @@ Placeholder description. Replace with class-specific summary.
 ## Syllabus Change Notice
 
 - Class rules, procedures, and expectations may change at any time to support student learning, school policy, legal requirements, or safety needs.
-- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](stem.md).
-- A repository-wide summary of rule updates is tracked in [README change log](../../../README.md#shared-rules-baseline-and-change-log).
+- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/syllabi/output/github-markdown/stem.md).
+- A repository-wide summary of rule updates is tracked in [README change log](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/README.md#shared-rules-baseline-and-change-log).
 
 <!-- markdownlint-enable MD032 MD013 -->

@@ -14,7 +14,7 @@ Fall Semester 2026
 
 ## Course Description
 
-This course covers earth and space science concepts using the second half of the adopted textbook.
+Earth and Space Science explores Earth's systems, including geology, meteorology, oceanography, and astronomy. Students examine Earth's structure, natural processes, climate patterns, and the universe beyond our planet. Investigations emphasize modeling, data interpretation, and understanding humanity's impact on Earth's systems. The course builds scientific literacy and appreciation for Earth's dynamic nature.
 
 ## Units
 
@@ -158,7 +158,7 @@ This course covers earth and space science concepts using the second half of the
 ## Syllabus Change Notice
 
 - Class rules, procedures, and expectations may change at any time to support student learning, school policy, legal requirements, or safety needs.
-- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](earth-and-space-science.md).
-- A repository-wide summary of rule updates is tracked in [README change log](../../../README.md#shared-rules-baseline-and-change-log).
+- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/syllabi/output/github-markdown/earth-and-space-science.md).
+- A repository-wide summary of rule updates is tracked in [README change log](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/README.md#shared-rules-baseline-and-change-log).
 
 <!-- markdownlint-enable MD032 MD013 -->

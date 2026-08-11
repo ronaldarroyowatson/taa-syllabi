@@ -4,7 +4,7 @@ term: Fall Semester 2026
 grades: "9"
 class_time: Period 3, Monday-Friday, 9:40 am-10:30 am
 textbook: Physical Science with Earth Science by Ralph Feathe and colleagues.
-course_description: This course covers core physical and earth science concepts using the adopted textbook.
+course_description: "Physical Science introduces students to fundamental concepts in physics and chemistry, including motion, forces, energy, waves, matter, and chemical interactions. Students engage in laboratory investigations that build measurement skills, data analysis, and conceptual understanding. The course provides a strong foundation for future study in chemistry, physics, and other STEM fields."
 units:
   - Unit 1 Motion and Forces: Module 2 Motion; Module 3 Forces and Newton's Laws.
   - Unit 2 Energy: Module 4 Work and Energy; Module 5 Thermal Energy; Module 6 Electricity; Module 7 Magnetism and Its Uses; Module 8 Energy Sources and the Environment.

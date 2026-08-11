@@ -4,7 +4,7 @@ term: Fall Semester 2026
 grades: "10"
 class_time: Period 5, Monday-Friday, 11:20 am-12:10 pm
 textbook: "ByDesign Biology: The Scientific Study of Life (Kendall Hunt, 2020; Dr. Timoth Standish et al.)."
-course_description: Placeholder description. Replace with class-specific summary.
+course_description: "Biology introduces students to the study of living organisms and the processes that sustain life. Topics include cellular biology, genetics, evolution, ecology, and organismal diversity. Students engage in laboratory investigations that develop scientific reasoning, data analysis, and experimental design skills. The course emphasizes the connections between biological principles and real-world environmental and health issues."
 units:
   - Introduction: Chapter 1 Foundations of Biology; Chapter 2 Biology Connections.
   - Unit 1 Ecology and Interdependence: Chapter 3 Ecosystems; Chapter 4 Populations and Communities; Chapter 5 Conservation.

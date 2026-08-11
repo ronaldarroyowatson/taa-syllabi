@@ -14,7 +14,7 @@ Fall Semester 2026
 
 ## Course Description
 
-Placeholder description. Replace with class-specific summary.
+Biology introduces students to the study of living organisms and the processes that sustain life. Topics include cellular biology, genetics, evolution, ecology, and organismal diversity. Students engage in laboratory investigations that develop scientific reasoning, data analysis, and experimental design skills. The course emphasizes the connections between biological principles and real-world environmental and health issues.
 
 ## Units
 
@@ -166,7 +166,7 @@ Placeholder description. Replace with class-specific summary.
 ## Syllabus Change Notice
 
 - Class rules, procedures, and expectations may change at any time to support student learning, school policy, legal requirements, or safety needs.
-- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](biology.md).
-- A repository-wide summary of rule updates is tracked in [README change log](../../../README.md#shared-rules-baseline-and-change-log).
+- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/syllabi/output/github-markdown/biology.md).
+- A repository-wide summary of rule updates is tracked in [README change log](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/README.md#shared-rules-baseline-and-change-log).
 
 <!-- markdownlint-enable MD032 MD013 -->

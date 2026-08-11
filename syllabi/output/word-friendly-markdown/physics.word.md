@@ -10,7 +10,7 @@ Fall Semester 2026
 - Textbook: Physics by Raymond A. Serway, Ph.D., and Jerry S. Faughn, Ph.D.
 
 ## Course Description
-This course walks students through core physics concepts using a chapter-based progression from the adopted textbook.
+Physics is a mathematical and conceptual study of motion, forces, energy, momentum, waves, electricity, magnetism, and modern physics. Students apply algebraic and graphical reasoning to analyze physical systems and solve real-world problems. Laboratory work emphasizes modeling, experimentation, and quantitative analysis. This course prepares students for advanced STEM pathways and college-level physics.
 
 ## Units
 - Module 1 Physics Toolkit: Module 1 A Physics Toolkit.
@@ -126,7 +126,7 @@ This course walks students through core physics concepts using a chapter-based p
 
 ## Syllabus Change Notice
 - Class rules, procedures, and expectations may change at any time to support student learning, school policy, legal requirements, or safety needs.
-- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](physics.md).
-- A repository-wide summary of rule updates is tracked in [README change log](../../../README.md#shared-rules-baseline-and-change-log).
+- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/syllabi/output/github-markdown/physics.md).
+- A repository-wide summary of rule updates is tracked in [README change log](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/README.md#shared-rules-baseline-and-change-log).
 
 <!-- markdownlint-enable MD022 MD032 MD034 -->

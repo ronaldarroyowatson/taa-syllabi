@@ -1,57 +1,57 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Generate syllabus (choose class)",
-      "type": "shell",
-      "command": "powershell",
-      "args": [
-        "-NoProfile",
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "${workspaceFolder}/scripts/render-syllabi.ps1",
-        "-Class",
-        "${input:className}"
-      ],
-      "problemMatcher": []
-    },
-    {
-      "label": "Generate all syllabi",
-      "type": "shell",
-      "command": "powershell",
-      "args": [
-        "-NoProfile",
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "${workspaceFolder}/scripts/render-syllabi.ps1",
-        "-All"
-      ],
-      "problemMatcher": []
-    },
-    {
-      "label": "Lint (GitHub Super-Linter parity note)",
-      "type": "shell",
-      "command": "echo Local CLI lint requires Node or Python. Use VS Code extension diagnostics now; CI runs markdown/yaml lint in GitHub Actions.",
-      "problemMatcher": []
-    }
-  ],
-  "inputs": [
-    {
-      "id": "className",
-      "type": "pickString",
-      "description": "Select a class YAML name",
-      "options": [
-        "physics",
-        "middle-school-science",
-        "biology",
-        "chemistry",
-        "anatomy",
-        "stem",
-        "robotics"
-      ],
-      "default": "physics"
-    }
-  ]
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Generate syllabus (choose class)",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}/scripts/render-syllabi.ps1",
+				"-Class",
+				"${input:className}"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Generate all syllabi",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}/scripts/render-syllabi.ps1",
+				"-All"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Lint (GitHub Super-Linter parity note)",
+			"type": "shell",
+			"command": "echo Local CLI lint requires Node or Python. Use VS Code extension diagnostics now; CI runs markdown/yaml lint in GitHub Actions.",
+			"problemMatcher": []
+		}
+	],
+	"inputs": [
+		{
+			"id": "className",
+			"type": "pickString",
+			"description": "Select a class YAML name",
+			"options": [
+				"physics",
+				"middle-school-science",
+				"biology",
+				"chemistry",
+				"anatomy",
+				"stem",
+				"robotics"
+			],
+			"default": "physics"
+		}
+	]
 }

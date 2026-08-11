@@ -10,7 +10,7 @@ Fall Semester 2026
 - Textbook: Physical Science with Earth Science by Ralph Feathe and colleagues.
 
 ## Course Description
-This course covers core physical and earth science concepts using the adopted textbook.
+Physical Science introduces students to fundamental concepts in physics and chemistry, including motion, forces, energy, waves, matter, and chemical interactions. Students engage in laboratory investigations that build measurement skills, data analysis, and conceptual understanding. The course provides a strong foundation for future study in chemistry, physics, and other STEM fields.
 
 ## Units
 - Unit 1 Motion and Forces: Module 2 Motion; Module 3 Forces and Newton's Laws.
@@ -127,7 +127,7 @@ This course covers core physical and earth science concepts using the adopted te
 
 ## Syllabus Change Notice
 - Class rules, procedures, and expectations may change at any time to support student learning, school policy, legal requirements, or safety needs.
-- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](physical-science.md).
-- A repository-wide summary of rule updates is tracked in [README change log](../../../README.md#shared-rules-baseline-and-change-log).
+- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/syllabi/output/github-markdown/physical-science.md).
+- A repository-wide summary of rule updates is tracked in [README change log](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/README.md#shared-rules-baseline-and-change-log).
 
 <!-- markdownlint-enable MD022 MD032 MD034 -->

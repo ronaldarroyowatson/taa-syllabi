@@ -10,7 +10,7 @@ Fall Semester 2026
 - Textbook: TBD
 
 ## Course Description
-Placeholder description. Replace with class-specific summary.
+Human Anatomy and Physiology is an in-depth exploration of the structure and function of the human body. Students investigate major organ systems, homeostasis, cellular processes, and the interdependence of body systems. Laboratory activities emphasize hands-on learning through models, dissections, physiological measurements, and real-world health applications. The course prepares students for advanced study in health sciences, nursing, and medical fields.
 
 ## Units
 - TBD
@@ -120,7 +120,7 @@ Placeholder description. Replace with class-specific summary.
 
 ## Syllabus Change Notice
 - Class rules, procedures, and expectations may change at any time to support student learning, school policy, legal requirements, or safety needs.
-- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](anatomy.md).
-- A repository-wide summary of rule updates is tracked in [README change log](../../../README.md#shared-rules-baseline-and-change-log).
+- Official updates will be posted in this repository copy of the syllabus: [Current class syllabus](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/syllabi/output/github-markdown/anatomy.md).
+- A repository-wide summary of rule updates is tracked in [README change log](https://github.com/ronaldarroyowatson/taa-syllabi/blob/main/README.md#shared-rules-baseline-and-change-log).
 
 <!-- markdownlint-enable MD022 MD032 MD034 -->
