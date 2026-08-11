@@ -1,3 +1,4 @@
+# Purpose: Class-specific source data for generating the Middle School Science syllabus outputs.
 course_name: Middle School Science
 term: Fall Semester 2026
 grades: "7-8"

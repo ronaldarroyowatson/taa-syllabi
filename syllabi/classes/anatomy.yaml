@@ -1,3 +1,4 @@
+# Purpose: Class-specific source data for generating the Anatomy syllabus outputs.
 course_name: Anatomy
 term: Fall Semester 2026
 grades: "12"

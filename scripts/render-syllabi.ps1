@@ -1,3 +1,4 @@
+# Purpose: Render class YAML plus shared template content into markdown, plain-text, and DOCX syllabus outputs.
 [CmdletBinding()]
 param(
     [string]$Class,
